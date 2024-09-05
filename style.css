@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #67809F;
+}
+
+.calculator{
+	width: 240px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calculator span{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #eee;
+	font-size: 0.7cm;
+	color: #333;
+	font-weight: 500;
+}
+
+.calculator span:hover{
+	cursor: pointer;
+}
+
+.calculator .operations{
+	background: #000000;
+	color: #fff;
+}
+
+.calculator .clear{
+	background: #FF0000;
+	color: #fff;
+}
+
+.calculator .inputArea{
+	grid-column: span 4;
+	padding: 20px 10px;
+	outline: none;
+	border: none;
+	font-size: 1.3cm;
+}
+
+.calculator .plus{
+	grid-row: span 2;
+	height: 120px;
+	line-height: 120px;
+}
+
+.calculator .equal{
+	width: 120px;
+	grid-column: span 2;
+	background: #19B5FE;
+	font-size: 1.2cm;
+}
+
+#history{
+	width: 240px;
+	height: 397.0px;
+	overflow-y: scroll;
+	font-size: 0.8cm;
+	background: #19B5FE;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+
+#history::-webkit -scrollbar{
+	width: 0;
+}
+
+#history h5{
+	padding: 10px 0px;
+	font-size: 0.8cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+an{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
